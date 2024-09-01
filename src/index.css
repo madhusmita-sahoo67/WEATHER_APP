@@ -1,0 +1,15 @@
+
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  transition: background-color 0.3s ease;
+}
+
+.app.dark {
+  background-color: #1a202c;
+  color: #f7fafc;
+}
+
